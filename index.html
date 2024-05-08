@@ -113,7 +113,7 @@
         <input type="submit" value="Send" /> -->
       </form>
     </div>
-    <form action="">
+    <!-- <form action="">
       <h4>Please enter your details:</h4>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
@@ -141,6 +141,27 @@
       <br /><br />
       <input type="reset" value="Reset" />
       <input type="submit" value="Submit" />
-    </form>
+    </form> -->
   </body>
+  <form action="">
+    <label for="holidays">Holiday destinations:</label>
+    <select name="holidays" id="holidays">
+      <option value="default" selected disabled hidden>
+        select destination
+      </option>
+      <optgroup label="countries">
+        <option value="newZealand">New Zealand</option>
+        <option value="vietnam">Vietnam</option>
+        <option value="frenchPolynesia">French Polynesia</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Alaska">Alaska</option>
+      </optgroup>
+      <optgroup label="cities">
+        <option value="paris">Paris</option>
+        <option value="rome">Rome</option>
+        <option value="berlin">Berlin</option>
+      </optgroup>
+    </select>
+  </form>
+  <textarea name="" id="" cols="50" rows="10"></textarea>
 </html>

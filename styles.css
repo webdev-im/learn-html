@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 100px;
+}
+
+.top {
+  max-width: 100%;
+}
+
+.top-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.floating-text {
+  top: 0;
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+}
+
+.btn {
+  height: 25px;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+}
+
+.heart {
+  height: 22px;
+  filter: invert(1);
+}
+
+.star {
+  height: 13px;
+}
+
+/* global classes */
+/* position */
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.dot-lg {
+  height: 8px;
+}
+
+.dot-md {
+  height: 6px;
+}
+
+.dot-sm {
+  height: 5px;
+}
+
+.z-1 {
+  z-index: 100;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.test {
+  min-height: 10px;
+  min-width: 10px;
+  color: red;
+}
+
+.w-300 {
+  max-width: 300px;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: grey;
+}
+
+.dot {
+  margin-top: -4px;
+  padding: 0 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+  max-width: 27%;
+  margin-top: -3px;
+}
+
+.grey-dot {
+  opacity: 0.6;
+}
